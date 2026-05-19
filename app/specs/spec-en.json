@@ -1,0 +1,127 @@
+{
+    "styleDescription": {
+        "title": "Style Description",
+        "description": "A concise yet comprehensive summary of the garment’s aesthetic and structural design features. It should clearly define the silhouette, fit, primary closures, and key design characteristics so anyone reading the spec sheet can immediately visualize the core product.",
+        "example:": "Men's relaxed-fit pullover hoodie featuring dropped shoulders, a double-layered self-fabric hood with tonal drawcords, a front kangaroo pocket, and 2x2 ribbing at the cuffs and waistband."
+    },
+    "symmetrical": {
+        "title": "Symmetrical",
+        "description": "A boolean (Yes/No) or directional indicator specifying whether a design element, pattern piece, or detail is identical on both the left and right sides of the garment. In pattern cutting instructions, marking a piece as symmetrical often implies cutting a pair (1 x Pair or 1L + 1R).",
+        "isBoolean": true
+    },
+    "asymmetrical": {
+        "title": "Asymmetrical",
+        "description": "A designator indicating that a garment silhouette, pattern piece, or specific detail is different on the left side compared to the right side. This tells production that the garment requires asymmetrical pattern construction and explicit directional cutting (e.g., \"Cut 1 Face Up\" instead of cutting a mirror pair).",
+        "isBoolean": true
+    },
+    "silhouette": {
+        "title": "Silhouette",
+        "description": "Defines the core geometric shape, outline, or fit profile of the garment relative to the body. It tells the pattern maker what kind of drape and structure the final piece should achieve.",
+        "example": "A-Line, Oversized, Fitted"
+    },
+    "garmentFit": {
+        "title": "Garment Fit",
+        "description": "Specifies how closely or loosely the garment sits against the human body. In technical design, this dictates the amount of \"ease\" (the difference between the body measurements and the finished garment measurements) that the pattern maker needs to build into the pattern.",
+        "example": "Slim Fit , Regular Fit, Relaxed Fit"
+    },
+    "frontView": {
+        "title": "Front View",
+        "description": "Describes everything visible when looking at the garment from the front. It includes the neckline/collar type, front openings (buttons, zippers), front pockets, gathers, or seam lines that shape the chest and waist.",
+        "example": "Concealed zipper fly with an internal metal hook-and-eye closure. Two front pleats and slanted side pockets (french pockets)."
+    },
+    "backView": {
+        "title": "Back View",
+        "description": "Describes the rear view of the garment. It includes back details, back closures, yokes, vents/slits, shaping darts, or back pockets (like on jeans).",
+        "example": "Two waist darts for shaping. Two single-welt back pockets with button closures."
+    },
+    "sleeves": {
+        "title": "Sleeves",
+        "description": "Describes the sleeve style, how it is attached to the armhole (e.g., set-in, raglan, kimono), the fit along the arm, and the wrist cuff or hem finishing details.",
+        "example": "Long, classic set-in sleeves, regular fit. 6 cm straight cuffs with single-button closure and bound sleeve placket."
+    },
+    "cuffs": {
+        "title": "Cuffs",
+        "description": "Describes the final structural element of the sleeve. It specifies if there is an attached cuff, its height, the type of closure (buttons, buttonholes, velcro, zippers), the presence of elastic, or if it is just a simple hem.",
+        "example": "6 cm straight cuff with square corners. Single button closure with horizontal buttonhole. Sleeve placket features a gauntlet button."
+    },
+    "collar": {
+        "title": "Collar",
+        "description": "Describes the collar style and shape, its construction (e.g., whether it features a collar band/stand or is a single piece), its height, and the presence of internal stays, buttons, or specific closures.",
+        "example": "Spread collar (or Italian collar) with a 3.5 cm collar stand. Collar points equipped with internal pockets for removable collar stays. Single-button stand closure."
+    },
+    "seamConstruction": {
+        "title": "Seam Construction",
+        "description": "Defines the structural method used to join fabric panels together. This field tells the sewing operator exactly how to execute the seams for durability, elasticity, and internal comfort.",
+        "example": "Overlock / Serged Seams, Flatlock Seams, Double-Needle Topstitch"
+    },
+    "topstitching": {
+        "title": "Topstitching",
+        "description": "Specifies all visible stitching on the outside of the garment. It indicates their location (e.g., on collar, pockets, plackets), the distance from the edge (e.g., edge-stitch, 1/4 inch), and whether they are single, double, or decorative. It also states if the thread is matching (tonal) or contrasting.",
+        "example": "Single edge-stitching (1-2 mm from the edge) on the collar, collar stand, cuffs, and front placket. Tonal thread (matching fabric color). High stitch density (approx. 7 stitches per cm)."
+    },
+    "pockets": {
+        "title": "Pockets",
+        "description": "Specifies the style of pockets on the garment (exterior or interior), their shape (e.g., patch, welt, side-seam pockets), how they close, and any structural or decorative reinforcements (such as bartacks on stress points).",
+        "example": "Two exterior horizontal double-welt pockets with tuck-in flaps at the hips. One welted chest pocket (welt pocket/out ticket pocket) on the left side. Interior: two horizontal single-welt pockets trimmed with self-fabric."
+    },
+    "buttonholes": {
+        "title": "Buttonholes",
+        "description": "Specifies the type of buttonhole, its orientation (vertical or horizontal), the stitch type used, and the thread color. It also notes if there are decorative (non-functional/blind) buttonholes.",
+        "example": "Standard straight buttonholes. Vertical orientation along the center-front placket; horizontal orientation on the collar stand and cuffs to prevent gaping during movement. Tonal thread (matching fabric)."
+    },
+    "overlap": {
+        "title": "Overlap",
+        "description": "Specifies how many centimeters the two sides of the garment overlap to close and indicates the type of fastening. It can be center-front (single-breasted) or displaced towards the side (double-breasted). It also specifies which side overlaps the other (traditionally left-over-right for menswear, right-over-left for womenswear).",
+        "example": "Standard 2 cm center-front overlap (total placket width 4 cm). Left front overlaps right front (menswear fastening style). Symmetrical closure with buttons aligned on the center-front line."
+    },
+    "neckline": {
+        "title": "Neckline",
+        "description": "Specifies the geometric shape and depth of the garment's neck opening. It tells the pattern maker how to scoop out the upper torso panels and tells the sewing operators what type of edge finish (e.g., bias binding, inner facing) is required to stabilize the raw edge.",
+        "example": "Crew Neck, V-Neck, Scoop Neck"
+    },
+    "armholeShaping": {
+        "title" : "Armhole Shaping",
+        "description": "Specifies the depth, curvature, or structural reinforcement of the armhole opening. This tells the pattern maker how deeply to scoop out the fabric under the armpit to balance comfort, range of motion, and silhouette structure.",
+        "example": "Standard Shaped, Deep, High, Straight"
+    },
+    "closure": {
+        "title": "Closure",
+        "description": "Defines the structural system used to open, close, or secure the garment on the body.",
+        "example": "Buttons, Zipper, Snaps, Hooks"
+    },
+    "dartsAndShapingReductions": {
+        "title": "Darts and Shaping Reductions",
+        "description": "Specifies how fabric is mathematically removed or folded to contour the garment to the body's natural curves. Darts: Folds stitched into the fabric that taper to a point (e.g., bust darts, back waist darts). Shaping Reductions: The excess fabric carved away specifically at the side seams or center seams to cinch the waist or curve inward for the hips.",
+        "example": "Darts, Bust Darts, Waist Darts, Side Seam Contouring, Center Back Shaping Seam, Princess Seams"
+    },
+    "styleLines": {
+        "title": "Style Lines",
+        "description": "Specifies how the garment's main body panels are structurally divided or sectioned. It dictates the number of pattern pieces that need to be engineered and sewn together.",
+        "example": "Princess Seams, Panel Construction, Yoke Seams"
+    },
+    "finishes": {
+        "title": "Finishes",
+        "description": "Specifies the technical method used to finish the raw edges of the fabric to prevent fraying, ensure structural durability, and maintain a clean appearance (both inside and out).",
+        "example": "Double-Fold Hem, Blind Hem, Laser-Cut, Bias Binding, Clean Finished with Facing, Overlocked & Turned, Clean-Finished Interior"
+    },
+    "lining": {
+        "title": "Lining",
+        "description": "Specifies whether the garment is lined or not, and the extent of the coverage (e.g., fully lined, half-lined, unlined). It describes the visual appearance (e.g., tonal/matching, contrast, patterned), the type of inner fabric used, and finishing details (such as a movement pleat or decorative piping).",
+        "example": "Fully lined (body and sleeves). Tonal viscose satin lining matching the shell fabric. Features a 2 cm center-back ease pleat (expansion pleat) for movement. Sleeve lining in a classic multi-stripe pattern."
+    },
+    "reinforcement": {
+        "title": "Reinforcement",
+        "description": "Specifies which parts of the garment need to be stiffened or stabilized, the type of material to be used (e.g., woven or non-woven fusible interlining, canvas), and the weight/hand of the reinforcement (e.g., light, medium, heavy) to ensure the fabric doesn't stretch out of shape and maintains its structure.",
+        "example": "Apply lightweight woven fusible interlining to: collar leaf, collar stand, and both cuffs. Apply a lighter fusible stabilizing tape (4 cm width) along the center-front button placket to reinforce the buttonholes."
+    },
+    "stylingFeatures": {
+        "title": "Styling Features",
+        "description": "Specifies any decorative elements, placement prints, embroideries, or small structural design accents applied to the garment for branding or visual style.",
+        "example": "Placement Print, Embroidery, Applique, Smocking, Frills, Pintucks, Contrast Piping, Distressed"
+    },
+    "mainFabric": {
+        "title": "Main Fabric",
+        "description": "Identifies the primary material used to construct the exterior body of the garment. This row typically includes the fiber composition (e.g., 100% Cotton), the weave type (e.g., Twill), and the fabric weight.",
+        "example": "Denim, Twills, Poplin, Canvas, Single Jersey, Interlock"
+    }
+}

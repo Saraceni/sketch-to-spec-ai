@@ -1,0 +1,127 @@
+{
+    "styleDescription": {
+        "title": "Descrizione Modello",
+        "description": "Un riassunto conciso ma esaustivo delle caratteristiche estetiche e strutturali del capo. Deve definire chiaramente la linea, la vestibilità, le chiusure principali e i dettagli stilistici fondamentali, in modo che chiunque legga la scheda tecnica possa visualizzare immediatamente il prodotto.",
+        "example:": "Felpa con cappuccio da uomo a vestibilità morbida con spalle scese, cappuccio a doppio strato con cordini in tinta, tasca marsupio frontale e nervature 2x2 ai polsi e al fondo."
+    },
+    "symmetrical": {
+        "title": "Simmetrico",
+        "description": "Indicatore che specifica se un elemento di design, un pezzo di cartamodello o un dettaglio è identico sui lati sinistro e destro del capo. Nei cartamodelli, un pezzo simmetrico implica solitamente il taglio in coppia (1 x paio o 1S + 1D).",
+        "isBoolean": true
+    },
+    "asymmetrical": {
+        "title": "Asimmetrico",
+        "description": "Indicatore che segnala che la silhouette, un pezzo di cartamodello o un dettaglio specifico è diverso sul lato sinistro rispetto al lato destro. Indica alla produzione che il capo richiede una costruzione del cartamodello asimmetrica e un taglio direzionale esplicito.",
+        "isBoolean": true
+    },
+    "silhouette": {
+        "title": "Linea",
+        "description": "Definisce la forma geometrica principale, il profilo o la sagoma del capo rispetto al corpo. Indica al modellista il tipo di caduta e struttura che il capo finito deve avere.",
+        "example": "Linee a trapezio, Linea ampia, Linea aderente, Linea dritta, Linea stile impero"
+    },
+    "garmentFit": {
+        "title": "Vestibilità",
+        "description": "Specifica quanto il capo aderisca o si discosti dal corpo. In fase di progettazione tecnica, determina la quantità di agio (differenza tra le misure corporee e quelle del capo finito) che il modellista deve incorporare nel cartamodello.",
+        "example": "Aderente, Regolare, Morbida, Over, Molto aderente"
+    },
+    "frontView": {
+        "title": "Davanti",
+        "description": "Descrive tutto ciò che è visibile guardando il capo frontalmente. Include il tipo di scollo o colletto, le aperture (bottoni, zip), le tasche anteriori, le arricciature o i tagli che modellano il seno e la pancia.",
+        "example": "Colletto a vela, abbottonatura centrale visibile con 7 bottoni in tinta. Due taschini applicati sul petto con pattina. Fondo stondato."
+    },
+    "backView": {
+        "title": "Dietro",
+        "description": "Descrive la parte posteriore del capo. Include i dettagli della schiena, i sistemi di chiusura posteriori, la presenza di sprone/carré, spacchi, pinces di modellatura o tasche posteriori (come nei jeans)",
+        "example": "Carré dritto con piega baciata centrale per dare ampiezza alla schiena. Fondo stondato, leggermente più lungo rispetto al davanti."
+    },
+    "sleeves": {
+        "title": "Maniche",
+        "description": "Descrive la tipologia di manica, il metodo di attaccatura alla spalla (es. classica, a raglan, a kimono), la vestibilità lungo il braccio e i dettagli di finitura del polso (es. polsino con bottone, elastico, orlo semplice).",
+        "example": "Manica lunga a giro classico, vestibilità regolare. Polsino dritto alto 6 cm con chiusura a singolo bottone e fessino profilato (apertura sul polso)."
+    },
+    "cuffs": {
+        "title": "Polsi",
+        "description": "Descrive la finitura finale della manica. Specifica se è presente un polsino applicato, l'altezza dello stesso, il tipo di chiusura (bottoni, asole, velcro, zip), la presenza di elasticità o semplicemente il tipo di orlo.",
+        "example": "Polsino dritto (altezza 6 cm) con angoli squadrati. Chiusura con singolo bottone e asola orizzontale. Presenza di fessino con bottone di cortesia."
+    },
+    "collar": {
+        "title": "Colletto",
+        "description": "Descrive la tipologia e la forma del colletto, la sua costruzione (es. se è composto da colletto + listino, o se è piatto/monopezzo), l'altezza e l'eventuale presenza di stecche interne, bottoni o chiusure particolari.",
+        "example": "Colletto all'italiana (o francese) con listino (solino) alto 3,5 cm. Punte del colletto dotate di taschini interni per stecche estraibili. Chiusura listino con un bottone."
+    },
+    "seamConstruction": {
+        "title": "Cuciture",
+        "description": "Definisce il metodo strutturale utilizzato per unire i pannelli di tessuto. Questo campo indica all'operatore di cucitura come eseguire le cuciture per garantire resistenza, elasticità e comfort interno.",
+        "example": "Cucitura a taglia-cuci, Cucitura piatta, Cucitura a due aghi, Cucitura all'inglese, Cucitura bordata"
+    },
+    "topstitching": {
+        "title": "Impunture",
+        "description": "Specifica tutte le cuciture a vista presenti sul capo. Indica la loro posizione (es. su colletto, tasche, fessini), la distanza millimetrica dal bordo (es. a riva, a 0.5 cm) e se sono singole, doppie o decorative. Indica anche se il filo deve essere in tinta con il tessuto o a contrasto.",
+        "example": "Impunture singole \"a riva\" (a 1-2 mm dal bordo) su colletto, listino, vela, polsi e lungo l'abbottonatura frontale. Filo in tinta con il tessuto. Cuciture interne ed esterni ad alta densità di punti (7 punti per centimetro)."
+    },
+    "pockets": {
+        "title": "Tasche",
+        "description": "Specifica il tipo di tasche presenti sul capo (esterne o interne), la loro forma (es. applicate, a filetto, nei fianchi), come vengono chiuse e se presentano dettagli di rinforzo o decorativi (come le travette sui punti di tensione).",
+        "example": "Due tasche esterne orizzontali a doppio filetto con patta (inseribile all'interno) posizionate sui fianchi. Un taschino a barchetta (tagliato sul petto a sinistra). All'interno: due tasche orizzontali a filetto semplice profilate nello stesso tessuto del capo."
+    },
+    "buttonholes": {
+        "title": "Occhielli",
+        "description": "Specifica la tipologia di occhiello, la sua orientazione (verticale o orizzontale), il macchinario/punto usato per realizzarlo e il colore del filo. Indica anche se sono presenti occhielli decorativi (finti) o asole particolari.",
+        "example": "Occhielli rettilinei standard (tipo biancheria). Orientamento verticale lungo l'abbottonatura frontale; orientamento orizzontale sul listino del collo e sui polsi per evitare che si aprano con i movimenti. Filo in tinta con il tessuto."
+    },
+    "overlap": {
+        "title": "Sormonto",
+        "description": "SORMONTO: Specifica di quanti centimetri si sovrappongono le due parti del capo per chiudersi e indica il tipo di abbottonatura. Può essere centrale (monopetto) o spostato verso il fianco (doppiopetto). Specifica inoltre quale lato sormonta l'altro (tradizionalmente il sinistro sul destro per l'uomo, il destro sul sinistro per la donna).",
+        "example": "Sormonto centrale standard da 2 cm (totale abbottonatura 4 cm). Il davanti sinistro si sovrappone al davanti destro (allacciatura uomo). Chiusura simmetrica con bottoni centrati sulla linea di metà davanti."
+    },
+    "neckline": {
+        "title": "Scollatura",
+        "description": "Specifica la forma geometrica e la profondità dello scollo del capo. Indica al modellista come ritagliare i pannelli superiori del busto e agli operatori di cucitura quale tipo di rifinitura (es. bordatura in sbieco, paramontura interna) è necessaria per stabilizzare il bordo grezzo.",
+        "example": "Girocollo, Scollo a V, Scollo tondo, Scollo a barchetta"
+    },
+    "armholeShaping": {
+        "title" : "Scalfatura",
+        "description": "Specifica la profondità, la curvatura o il rinforzo strutturale dell'apertura della scalfatura. Indica al modellista quanto scalfire il tessuto sotto l'ascella per bilanciare comodità, libertà di movimento e struttura della silhouette.",
+        "example": "Scalfo sagomato, Scalfo profondo, Scalfo alto, Senza scalfo"
+    },
+    "closure": {
+        "title": "Chiusura",
+        "description": "Definisce il sistema strutturale utilizzato per aprire, chiudere o fissare il capo sul corpo.",
+        "example": "Bottoni, Cerniera, Bottoni Automatici, Ganci, Lacci"
+    },
+    "dartsAndShapingReductions": {
+        "title": "Riprese e Scarti",
+        "description": "Specifica come il tessuto viene eliminato o piegato per modellare il capo sulle curve naturali del corpo. Riprese: pieghe cucite nel tessuto che si assottigliano fino a un punto. Scarti: il tessuto in eccesso eliminato nelle cuciture laterali o centrali per restringere il giro vita o seguire i fianchi.",
+        "example": "Riprese, Riprese del seno, Riprese in vita, Scarto fianco, Cucitura centrale sagomata, Taglio Princesse"
+    },
+    "styleLines": {
+        "title": "Tagli",
+        "description": "Specifica come i pannelli principali del corpo del capo sono strutturalmente suddivisi o sezionati. Determina il numero di pezzi del cartamodello da costruire e cucire insieme.",
+        "example": "Taglio Princesse, Costadillo, Taglio Carré"
+    },
+    "finishes": {
+        "title": "Rifiniture",
+        "description": "Specifica il metodo tecnico utilizzato per rifinire i bordi grezzi del tessuto per evitare lo sfilacciamento, garantire la durata strutturale e mantenere un aspetto curato sia all'interno che all'esterno.",
+        "example": "Orlo a doppia piega, Orlo invisibile, Taglio a vivo, Bordatura in sbieco, Rifinito con mostrina, Sorfilato e ripiegato, Rifinitura sartoriale"
+    },
+    "lining": {
+        "title": "Fodera",
+        "description": "Specifica se il capo è foderato o meno e l'estensione del rivestimento (es. totale, parziale/sfoderato). Descrive l'aspetto visivo (es. in tinta, a contrasto, fantasia), la tipologia di tessuto utilizzato all'interno e i dettagli di finitura (come la piega di movimento o il bordino decorativo).",
+        "example": "Interamente foderato (corpo e maniche). Fodera in raso di viscosa in tinta con il tessuto esterno. Presenza di piega di agio (piega di movimento) di 2 cm sul centro schiena. Interno maniche in fodera rigata classica (bifilare)."
+    },
+    "reinforcement": {
+        "title": "Rinforzo",
+        "description": "Specifica quali parti del capo devono essere irrigidite o stabilizzate, il tipo di materiale da utilizzare (es. interfodera termoadesiva tessuta o non tessuta, teletta preformata) e il peso/mano del rinforzo stesso (es. leggero, medio, pesante) per garantire che il tessuto non ceda e mantenga la forma desiderata nel tempo.",
+        "example": "Applicare interfodera termoadesiva tessuta di peso medio-leggero su: vela del colletto, listino del collo e su entrambi i polsi. Applicare una striscia di rinforzo più leggera (altezza 4 cm) lungo la paramontura dell'abbottonatura frontale per sostenere gli occhielli."
+    },
+    "stylingFeatures": {
+        "title": "Motivi e Particolari",
+        "description": "Specifica eventuali elementi decorativi, stampe piazzate, ricami o piccoli accenti stilistici strutturali applicati al capo per il branding o lo stile visivo.",
+        "example": "Stampa piazzata, Ricamo, Applicazione, Arricciatura, Volants, Piegoline, Profilo a contrasto, Dettagli usurati"
+    },
+    "mainFabric": {
+        "title": "Tessuto",
+        "description": "Identifica il materiale principale utilizzato per costruire la parte esterna del capo. Questo campo include tipicamente la composizione delle fibre (es. 100% Cotone), il tipo di armatura (es. Sargia) e il peso del tessuto.",
+        "example": "Denim, Sargia, Popeline, Tela Olona, Jersey, Felpa ricciuta"
+    }
+}

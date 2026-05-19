@@ -1,0 +1,16 @@
+{
+  "home": {
+    "title": "SketchToSpec AI",
+    "subtitle": "Scatta una foto del tuo bozzetto di moda e ti aiuteremo a creare la tua scheda tecnica",
+    "examplesHeading": "Esempi di Bozzetti",
+    "uploadPrompt": "Inizia caricando una foto del tuo bozzetto!",
+    "uploadButton": "Carica",
+    "imageTooLargeTitle": "Immagine troppo grande",
+    "imageTooLargeDescription": "Seleziona un'immagine inferiore a 5MB."
+  },
+  "details": {
+    "fabricLabel": "Tessuto e dettagli",
+    "fabricPlaceholder": "Descrivi il tipo di tessuto, i dettagli costruttivi, i colori o qualsiasi altra informazione rilevante per la scheda tecnica...",
+    "generateButton": "Genera Scheda Tecnica"
+  }
+}

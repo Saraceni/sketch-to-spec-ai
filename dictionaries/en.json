@@ -1,0 +1,16 @@
+{
+  "home": {
+    "title": "SketchToSpec AI",
+    "subtitle": "Take a picture of your Fashion Sketch and we will help you create your technical sheet",
+    "examplesHeading": "Examples of Sketches",
+    "uploadPrompt": "Let's start by uploading a picture of your sketch!",
+    "uploadButton": "Upload",
+    "imageTooLargeTitle": "Image too large",
+    "imageTooLargeDescription": "Please select an image under 5MB."
+  },
+  "details": {
+    "fabricLabel": "Fabric & details",
+    "fabricPlaceholder": "Describe the fabric type, construction details, colours, or anything else relevant to the spec...",
+    "generateButton": "Generate Spec"
+  }
+}
