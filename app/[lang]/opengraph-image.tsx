@@ -1,4 +1,6 @@
 import { ImageResponse } from "next/og";
+import { join } from "node:path";
+import { readFile } from "node:fs/promises";
 import { getDictionary, hasLocale, defaultLocale } from "@/lib/dictionaries";
 
 export const size = { width: 1200, height: 630 };
@@ -13,9 +15,9 @@ export default async function Image({
   const locale = hasLocale(lang) ? lang : defaultLocale;
   const dict = await getDictionary(locale);
 
-  const geist = await fetch(
-    "https://fonts.gstatic.com/s/geist/v1/gyBhhwUxId8gMEwcGFWNOITddY4.woff"
-  ).then((res) => res.arrayBuffer());
+  const geist = await readFile(
+    join(process.cwd(), "public/fonts/Geist-Regular.ttf")
+  );
 
   return new ImageResponse(
     (
